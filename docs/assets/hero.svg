@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Social Media Data Analysis</title>
+  <desc id="desc">YouTube engagement against public holiday calendars.</desc>
+  <style>
+    .bg { fill: #f3f6f4; }
+    .frame { fill: none; stroke: #d5ddd8; stroke-width: 1; }
+    .title { fill: #14201c; font: 700 54px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .tag { fill: #5b6b66; font: 400 20px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .chip { fill: #ffffff; stroke: #d5ddd8; stroke-width: 1; }
+    .chip-text { fill: #14201c; font: 600 16px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .rule { stroke: #0f766e; stroke-width: 4; stroke-linecap: round; }
+    .teal { fill: #0f766e; }
+    .violet { fill: #6d28d9; }
+    .slate { fill: #94a3b8; }
+    .card { fill: #ffffff; stroke: #d5ddd8; }
+    .bar { fill: #0f766e; }
+    .bar-mute { fill: #94a3b8; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #121816; }
+      .frame { stroke: #2a3330; }
+      .title, .chip-text { fill: #e8eeea; }
+      .tag { fill: #9aa8a3; }
+      .chip, .card { fill: #1a221f; stroke: #2a3330; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="359" rx="28"/>
+
+  <g transform="translate(56,72)">
+    <text class="title" x="0" y="58">Social Media</text>
+    <text class="title" x="0" y="118">Data Analysis</text>
+    <line class="rule" x1="0" y1="142" x2="132" y2="142"/>
+    <text class="tag" x="0" y="178">Holiday lift on official YouTube uploads</text>
+    <g transform="translate(0,206)">
+      <rect class="chip" width="118" height="36" rx="18"/>
+      <text class="chip-text" x="59" y="24" text-anchor="middle">YouTube</text>
+      <rect class="chip" x="130" width="150" height="36" rx="18"/>
+      <text class="chip-text" x="205" y="24" text-anchor="middle">Calendar API</text>
+      <rect class="chip" x="292" width="72" height="36" rx="18"/>
+      <text class="chip-text" x="328" y="24" text-anchor="middle">R</text>
+    </g>
+  </g>
+
+  <g transform="translate(760,58)">
+    <rect class="card" width="380" height="244" rx="20"/>
+    <rect class="teal" x="28" y="28" width="22" height="22" rx="6"/>
+    <polygon points="36,33 36,45 46,39" fill="#f8fafc"/>
+    <rect class="violet" x="58" y="28" width="22" height="22" rx="6"/>
+    <rect x="62" y="33" width="14" height="3" fill="#f8fafc"/>
+    <rect x="62" y="38" width="10" height="3" fill="#f8fafc"/>
+    <rect x="62" y="43" width="12" height="3" fill="#f8fafc"/>
+    <rect class="bar-mute" x="56" y="176" width="48" height="36" rx="6"/>
+    <rect class="bar" x="124" y="148" width="48" height="64" rx="6"/>
+    <rect class="bar-mute" x="192" y="164" width="48" height="48" rx="6"/>
+    <rect class="bar" x="260" y="132" width="48" height="80" rx="6"/>
+    <text class="tag" x="28" y="228">2022 · 197 videos · 51 holiday days</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+# Public R analysis (src/analysis/yt_data_and_holidays.R)
+# Install with:
+#   Rscript src/analysis/packages.R
+pacman
+dplyr
+ggplot2
+this.path
+readr
+scales

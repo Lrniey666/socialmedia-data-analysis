@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" role="img" aria-labelledby="title desc">
+  <title id="title">Median engagement comparison</title>
+  <desc id="desc">Median views, likes and comments for holiday and other days.</desc>
+  <style>
+    .bg { fill: #f3f6f4; }
+    .title { fill: #14201c; font: 700 20px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .sub { fill: #5b6b66; font: 400 13px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .label { fill: #14201c; font: 650 14px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .muted { fill: #5b6b66; font: 400 12px "Segoe UI", "Helvetica Neue", sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #121816; }
+      .title, .label { fill: #e8eeea; }
+      .sub, .muted { fill: #9aa8a3; }
+    }
+  </style>
+  <rect class="bg" width="520" height="380" rx="20"/>
+  <text x="36" y="36" class="title">Median engagement</text>
+  <text x="36" y="56" class="sub">197 unique 2022 uploads · 51 holiday / 146 other days</text>
+  <text x="36" y="92" class="label">Views median</text><text x="36" y="114" class="muted">Non-holiday 286,457</text><rect x="200" y="100" width="220" height="14" rx="4" fill="#94a3b8"/><text x="36" y="146" class="muted">Holiday 288,606</text><rect x="200" y="132" width="221.7" height="14" rx="4" fill="#0f766e"/><text x="36" y="180" class="label">Likes median</text><text x="36" y="202" class="muted">Non-holiday 15,787</text><rect x="200" y="188" width="220" height="14" rx="4" fill="#94a3b8"/><text x="36" y="234" class="muted">Holiday 17,415</text><rect x="200" y="220" width="242.7" height="14" rx="4" fill="#0f766e"/><text x="36" y="268" class="label">Comments median</text><text x="36" y="290" class="muted">Non-holiday 353</text><rect x="200" y="276" width="220" height="14" rx="4" fill="#94a3b8"/><text x="36" y="322" class="muted">Holiday 319</text><rect x="200" y="308" width="198.8" height="14" rx="4" fill="#0f766e"/>
+</svg>

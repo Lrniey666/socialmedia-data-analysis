@@ -1,0 +1,8 @@
+# Public collectors — YouTube Data API v3 and Google Calendar holiday calendars.
+# Install from the repository root:
+#   python -m pip install -r requirements.txt
+pandas>=2.0,<3
+google-api-python-client>=2.100,<3
+google-auth>=2.23,<3
+google-auth-oauthlib>=1.1,<2
+google-auth-httplib2>=0.1.1,<1

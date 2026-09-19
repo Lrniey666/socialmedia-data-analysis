@@ -1,0 +1,47 @@
+# Local-only materials (kept on disk, never committed)
+/local/**
+!/local/README.md
+
+# Historical paths if files are still in the public tree
+/data/X_Twitter/
+/src/fetching/x_twitter.py
+/src/analysis/x_data_and_holidays.R
+/src/analysis/yt_data_and_x_data.R
+chromedriver.exe
+**/chromedriver.exe
+
+# Credentials
+/secrets/
+*.pem
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scraped / scratch outputs
+data/X_Twitter/test.csv
+src/fetching/facebook.py
+holidays.csv
+data/YouTube/video_details.csv
+*.tmp
+*.log
