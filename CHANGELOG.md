@@ -11,7 +11,7 @@ and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 ### Added
 
-- Public showcase layout: bilingual README (zh-Hant / en-GB), docs index, method notes, installation, contributing guide.
+- Public showcase layout: bilingual README (zh-Hant / en), docs index, method notes, installation, contributing guide.
 - `requirements.txt`, `r-packages.txt`, `src/analysis/packages.R`.
 - Repeatable holiday summary: `src/analysis/yt_holiday_summary.py` and a batch-safe `yt_data_and_holidays.R`.
 - Demo figures and `data/derived/holiday_engagement_2022.csv`.

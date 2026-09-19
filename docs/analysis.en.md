@@ -1,6 +1,6 @@
 # Method and findings
 
-Language: [繁體中文](analysis.md) · [English (UK)](analysis.en-GB.md)
+Language: [繁體中文](analysis.md) · [English](analysis.en.md)
 
 This page is what the public tree actually does. The main README only keeps the table and figures.
 

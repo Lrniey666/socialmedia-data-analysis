@@ -1,6 +1,6 @@
 # 分析方法與發現
 
-語言：[繁體中文](analysis.md) · [English (UK)](analysis.en-GB.md)
+語言：[繁體中文](analysis.md) · [English](analysis.en.md)
 
 這頁寫公開樹實際做了什麼。主 README 只放結論表與圖。
 

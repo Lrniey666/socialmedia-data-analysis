@@ -1,7 +1,7 @@
 # 安裝與重抓
 
 語言：[繁體中文](installation.md) · 步驟與根目錄 README 相同；此頁補 API 細節。  
-English (UK) notes are in the second half.
+English notes are in the second half.
 
 ## 重跑公開分析（不必金鑰）
 

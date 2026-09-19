@@ -1,6 +1,6 @@
 # 貢獻指南
 
-語言：[繁體中文](CONTRIBUTING.md) · [English (UK)](docs/CONTRIBUTING.en-GB.md)
+語言：[繁體中文](CONTRIBUTING.md) · [English](docs/CONTRIBUTING.en.md)
 
 這是 2023 課程資料管線的封存展示倉。歡迎修文件、補重跑註記、在**公開**分析上加檢定。請先當歷史作業看，再動手。
 
@@ -14,11 +14,11 @@
 
 | 項目 | 約定 |
 | --- | --- |
-| 對外說明 | 繁中在 `README.md`；英式英文在 `docs/README.en-GB.md`，兩邊一起改 |
+| 對外說明 | 繁中在 `README.md`；英文在 `docs/README.en.md`，兩邊一起改 |
 | 日期 | `YYYY-MM-DD`，台北時間 |
 | 變更紀錄 | `CHANGELOG.md` 的 `## [Unreleased]`（Keep a Changelog 2.0.0） |
 | 換行 | LF（`.gitattributes`） |
-| 英文 | British English（licence, analysed, behaviour） |
+| 英文 | English（licence, analysed, behaviour） |
 
 ## 請不要
 
@@ -33,5 +33,5 @@
 ## 改完必做
 
 1. Notable 變更寫進 `CHANGELOG.md` → `## [Unreleased]`
-2. 動到 Hero／安裝／結構／數字 → 繁中與 en-GB README 一起改
-3. 若改了假日定義，同步 [`docs/analysis.md`](docs/analysis.md) 與 [`docs/analysis.en-GB.md`](docs/analysis.en-GB.md)
+2. 動到 Hero／安裝／結構／數字 → 繁中與英文 README 一起改
+3. 若改了假日定義，同步 [`docs/analysis.md`](docs/analysis.md) 與 [`docs/analysis.en.md`](docs/analysis.en.md)

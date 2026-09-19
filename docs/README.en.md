@@ -1,6 +1,6 @@
 <p align="center">
   <a href="../README.md"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-6d28d9?style=for-the-badge&labelColor=14201c"></a>
-  <a href="#readme"><img alt="English (UK)" src="https://img.shields.io/badge/English_(UK)-0f766e?style=for-the-badge&labelColor=14201c"></a>
+  <a href="#readme"><img alt="English" src="https://img.shields.io/badge/English-0f766e?style=for-the-badge&labelColor=14201c"></a>
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 If a talent agency posts on a public holiday, do the views rise? This coursework takes the **Hololive official channel** upload list, aligns it with the **Google public holiday calendars** for Japan, the United States and Indonesia, and asks whether “the calendar day was a holiday” in 2022 tracks views, likes and comments.
 
-English in this repository is **British English**.
+English in this repository is **English**.
 
 > **Status.** The public tree keeps only collectors that official APIs can reproduce. The login-based X/Twitter collector, the tweet dump and the unfinished cross-platform join stay in local `local/` and are gitignored. This repository is **not** an official COVER / hololive project.
 
@@ -97,7 +97,7 @@ After de-duplication, **197** Hololive official uploads in 2022: **51** holiday,
 </p>
 <p align="center"><sub>Median views almost overlap; likes a little higher, comments a little lower. Descriptive, not causal.</sub></p>
 
-Method, limits and the Calliope Mori contrast: [`analysis.en-GB.md`](analysis.en-GB.md).
+Method, limits and the Calliope Mori contrast: [`analysis.en.md`](analysis.en.md).
 
 ## Architecture
 
@@ -117,7 +117,7 @@ flowchart LR
 | Public data | `data/YouTube`, `data/Google Calendar` | Repeatable intermediates |
 | Analyse | `src/analysis/` | Holiday flag, summary, figures |
 | Local | `local/` | Collector, tweets and drafts that stay off git |
-| Docs | `docs/` | British English counterpart, method, install notes |
+| Docs | `docs/` | English counterpart, method, install notes |
 
 <details>
 <summary><strong>Technical notes (collapsed)</strong></summary>

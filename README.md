@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#readme"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-0f766e?style=for-the-badge&labelColor=14201c"></a>
-  <a href="docs/README.en-GB.md"><img alt="English (UK)" src="https://img.shields.io/badge/English_(UK)-6d28d9?style=for-the-badge&labelColor=14201c"></a>
+  <a href="docs/README.en.md"><img alt="English" src="https://img.shields.io/badge/English-6d28d9?style=for-the-badge&labelColor=14201c"></a>
 </p>
 
 <p align="center">
@@ -115,7 +115,7 @@ flowchart LR
 | 公開資料 | `data/YouTube`、`data/Google Calendar` | 可重跑的中介表 |
 | 分析 | `src/analysis/` | 假日旗標、摘要、圖 |
 | 本機 | `local/` | 不進版控的蒐集器、推文、半成品 |
-| 說明 | `docs/` | 英式英文對照、方法、安裝細節 |
+| 說明 | `docs/` | 英文對照、方法、安裝細節 |
 
 <details>
 <summary><strong>技術細節（可折疊）</strong></summary>
@@ -156,7 +156,7 @@ src/analysis/          公開假日分析（Python + R）
 data/YouTube/          官方頻道與 Calliope Mori 上傳列
 data/Google Calendar/  JP / US / ID / TW / UK 2022 假日
 data/derived/          重跑後的摘要表
-docs/                  說明、Hero、示範圖；英文在 README.en-GB.md
+docs/                  說明、Hero、示範圖；英文在 README.en.md
 config.example/        憑證空殼
 local/                 本機材料（gitignore，僅留 README）
 LICENSE                Apache 2.0
