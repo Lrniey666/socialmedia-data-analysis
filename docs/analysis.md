@@ -2,7 +2,7 @@
 
 語言：[繁體中文](analysis.md) · [English](analysis.en.md)
 
-這頁寫公開樹實際做了什麼。主 README 只放結論表與圖。
+這頁寫 public tree 實際做了什麼。主 README 只放結論表與圖。
 
 ## 問題
 

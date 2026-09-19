@@ -39,7 +39,7 @@
 
 VTuber 事務所在假日發片，觀看會比較高嗎？這份作業用 **Hololive 官方頻道** 的公開上傳列，對上日本、美國、印尼的 **Google 公開假日曆**，看 2022 年「當天是不是假日」和觀看、喜歡、留言的關係。
 
-> **現況。** 公開樹只保留官方 API 能重做的擷取與分析。登入式 X／Twitter 蒐集器、推文全文、未完成的平台對齊稿留在本機 `local/`，已被 git 忽略。本 Repository **不是** COVER / hololive 官方專案。
+> **現況。** public tree 只保留官方 API 能重做的擷取與分析。登入式 X／Twitter 蒐集器、推文全文、未完成的平台對齊稿留在本機 `local/`，已被 git 忽略。本 Repository **不是** COVER / hololive 官方專案。
 
 ## 功能
 
@@ -71,7 +71,7 @@ Python 寫出 `data/derived/holiday_engagement_2022.csv` 與示範 SVG；R 腳�
 
 | 還有這些 | 為什麼這樣做 |
 | --- | --- |
-| **本機材料與公開樹分開** | X 登入爬蟲與推文原文有平台條款與散布風險；半成品 tags 對齊也不該假裝做完。檔還在，只是不進 git。 |
+| **本機材料與 public tree 分開** | X 登入爬蟲與推文原文有平台條款與散布風險；半成品 tags 對齊也不該假裝做完。檔還在，只是不進 git。 |
 | **兩套分析入口** | 沒裝 R 也能 `python src/analysis/yt_holiday_summary.py`。有 R 則走原本課程語系。 |
 | **範例憑證、沒有真鑰** | `config.example/` 是空殼；真鑰放 `secrets/`，目錄已被忽略。 |
 | **誠實寫發現** | 2022 官方頻道觀看中位數幾乎沒有假日差。作品寫「問了什麼」，不寫不存在的奇蹟。 |

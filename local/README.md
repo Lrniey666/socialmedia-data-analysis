@@ -14,6 +14,6 @@ This folder stays on the author’s machine. Git ignores everything here except 
 
 The public tree answers a narrower question with official APIs: **did public holidays change Hololive YouTube engagement in 2022?**
 
-公開樹只保留官方 API 能重做的部分：假日是否改變 2022 年 Hololive YouTube 互動量。
+public tree 只保留官方 API 能重做的部分：假日是否改變 2022 年 Hololive YouTube 互動量。
 
 Do not add this folder to a public branch, gist, or release archive.
