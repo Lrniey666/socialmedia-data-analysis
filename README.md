@@ -1,30 +1,30 @@
-<p align="center">
+<div align="center">
   <a href="#readme"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-0f766e?style=for-the-badge&labelColor=14201c"></a>
   <a href="docs/README.en.md"><img alt="English" src="https://img.shields.io/badge/English-6d28d9?style=for-the-badge&labelColor=14201c"></a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/hero.svg" alt="Social Media Data Analysis" width="760">
-</p>
+</div>
 
 <h1 align="center">Social Media Data Analysis</h1>
 
-<p align="center">
+<div align="center">
   <strong>假日會不會改變官方頻道的互動量？</strong><br>
   YouTube Data API 抓上傳列，Google 公開假日曆對日期，R／Python 做探索分析。<br>
   2023 課程資料管線，2026 年收成可公開的 Showcase Repository。
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-coursework%20showcase-0f766e?style=flat-square&labelColor=14201c">
   <img alt="window" src="https://img.shields.io/badge/window-2022-6d28d9?style=flat-square&labelColor=14201c">
   <img alt="python" src="https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat-square&labelColor=14201c">
   <img alt="r" src="https://img.shields.io/badge/R-4.1%2B-276DC3?style=flat-square&labelColor=14201c">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-0f766e?style=flat-square&labelColor=14201c">
   <img alt="licence" src="https://img.shields.io/badge/licence-Apache%202.0-6b6b6b?style=flat-square&labelColor=14201c">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#功能">功能</a> ·
   <a href="#示範">示範</a> ·
   <a href="#架構">架構</a> ·
@@ -33,7 +33,7 @@
   <a href="#貢獻">貢獻</a> ·
   <a href="docs/README.md">文件索引</a> ·
   <a href="CHANGELOG.md">變更紀錄</a>
-</p>
+</div>
 
 ---
 
@@ -85,15 +85,15 @@ Python 寫出 `data/derived/holiday_engagement_2022.csv` 與示範 SVG；R 腳�
 | 假日 | 51 | 288,606 | 635,514 | 17,415 | 319 |
 | 非假日 | 146 | 286,457 | 522,421 | 15,787 | 353 |
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/views-boxplot.svg" alt="2022 年假日與非假日觀看數 Tukey 箱形圖" width="700">
-</p>
-<p align="center"><sub>Tukey 箱形圖、對數座標。離群值仍在資料裡，鬚線停在 1.5 IQR。</sub></p>
+</div>
+<div align="center"><sub>Tukey 箱形圖、對數座標。離群值仍在資料裡，鬚線停在 1.5 IQR。</sub></div>
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/median-comparison.svg" alt="觀看、喜歡、留言中位數對照" width="520">
-</p>
-<p align="center"><sub>觀看中位數幾乎重疊；喜歡略高、留言略低。這是探索描述，不是因果推論。</sub></p>
+</div>
+<div align="center"><sub>觀看中位數幾乎重疊；喜歡略高、留言略低。這是探索描述，不是因果推論。</sub></div>
 
 方法、限制與 Calliope Mori 對照見 [`docs/analysis.md`](docs/analysis.md)。
 
@@ -178,6 +178,6 @@ YouTube 標題、tags 與數量欄位來自 [YouTube Data API](https://developer
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>Coursework pipeline · 2022 window · packaged 2026</sub>
-</p>
+</div>

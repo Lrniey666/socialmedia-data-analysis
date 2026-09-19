@@ -1,30 +1,30 @@
-<p align="center">
+<div align="center">
   <a href="../README.md"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-6d28d9?style=for-the-badge&labelColor=14201c"></a>
   <a href="#readme"><img alt="English" src="https://img.shields.io/badge/English-0f766e?style=for-the-badge&labelColor=14201c"></a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="assets/hero.svg" alt="Social Media Data Analysis" width="760">
-</p>
+</div>
 
 <h1 align="center">Social Media Data Analysis</h1>
 
-<p align="center">
+<div align="center">
   <strong>Do public holidays change official-channel engagement?</strong><br>
   YouTube Data API for the upload list, Google public holiday calendars for the dates, R and Python for the exploration.<br>
   A 2023 coursework pipeline, packed as a public showcase in 2026.
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-coursework%20showcase-0f766e?style=flat-square&labelColor=14201c">
   <img alt="window" src="https://img.shields.io/badge/window-2022-6d28d9?style=flat-square&labelColor=14201c">
   <img alt="python" src="https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat-square&labelColor=14201c">
   <img alt="r" src="https://img.shields.io/badge/R-4.1%2B-276DC3?style=flat-square&labelColor=14201c">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-0f766e?style=flat-square&labelColor=14201c">
   <img alt="licence" src="https://img.shields.io/badge/licence-Apache%202.0-6b6b6b?style=flat-square&labelColor=14201c">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#features">Features</a> ·
   <a href="#demo">Demo</a> ·
   <a href="#architecture">Architecture</a> ·
@@ -33,7 +33,7 @@
   <a href="#contributing">Contributing</a> ·
   <a href="./README.md">Docs index</a> ·
   <a href="../CHANGELOG.md">Changelog</a>
-</p>
+</div>
 
 ---
 
@@ -87,15 +87,15 @@ After de-duplication, **197** Hololive official uploads in 2022: **51** holiday,
 | Holiday | 51 | 288,606 | 635,514 | 17,415 | 319 |
 | Other days | 146 | 286,457 | 522,421 | 15,787 | 353 |
 
-<p align="center">
+<div align="center">
   <img src="assets/views-boxplot.svg" alt="Tukey box plots of views on holiday and other days in 2022" width="700">
-</p>
-<p align="center"><sub>Tukey box plot on a log scale. Outliers remain in the data; whiskers stop at 1.5 IQR.</sub></p>
+</div>
+<div align="center"><sub>Tukey box plot on a log scale. Outliers remain in the data; whiskers stop at 1.5 IQR.</sub></div>
 
-<p align="center">
+<div align="center">
   <img src="assets/median-comparison.svg" alt="Median views, likes and comments" width="520">
-</p>
-<p align="center"><sub>Median views almost overlap; likes a little higher, comments a little lower. Descriptive, not causal.</sub></p>
+</div>
+<div align="center"><sub>Median views almost overlap; likes a little higher, comments a little lower. Descriptive, not causal.</sub></div>
 
 Method, limits and the Calliope Mori contrast: [`analysis.en.md`](analysis.en.md).
 
@@ -180,6 +180,6 @@ YouTube titles, tags and count fields come from the [YouTube Data API](https://d
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>Coursework pipeline · 2022 window · packaged 2026</sub>
-</p>
+</div>
