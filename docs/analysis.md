@@ -58,8 +58,8 @@ python src/analysis/yt_holiday_summary.py
 - 觀看數是擷取當下的累積值，不是上線 24 小時的流量。
 - 「假日」跨三個時區與文化；觀眾不在同一套日曆上放假。
 - 沒有做檢定、也沒有依內容類型分層（3D 直播 vs 短動畫）。
-- 本倉不重現 X 對照。那條線依賴本機推文庫，見 [`../local/README.md`](../local/README.md)。
+- 本 Repository 不重現 X 對照。那條線依賴本機推文庫，見 [`../local/README.md`](../local/README.md)。
 
 ## 半成品（本機）
 
-`local/analysis/yt_data_and_x_data.R` 曾嘗試用 tags 做 YouTube × X 模糊比對，`stringdist` 寫了兩套未收斂的 join。展示倉不把它當成完成分析。
+`local/analysis/yt_data_and_x_data.R` 曾嘗試用 tags 做 YouTube × X 模糊比對，`stringdist` 寫了兩套未收斂的 join。Showcase Repository 不把它當成完成分析。

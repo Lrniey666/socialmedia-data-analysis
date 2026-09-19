@@ -12,7 +12,7 @@
 <p align="center">
   <strong>假日會不會改變官方頻道的互動量？</strong><br>
   YouTube Data API 抓上傳列，Google 公開假日曆對日期，R／Python 做探索分析。<br>
-  2023 課程資料管線，2026 年收成可公開的展示倉。
+  2023 課程資料管線，2026 年收成可公開的 Showcase Repository。
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 VTuber 事務所在假日發片，觀看會比較高嗎？這份作業用 **Hololive 官方頻道** 的公開上傳列，對上日本、美國、印尼的 **Google 公開假日曆**，看 2022 年「當天是不是假日」和觀看、喜歡、留言的關係。
 
-> **現況。** 公開樹只保留官方 API 能重做的擷取與分析。登入式 X／Twitter 蒐集器、推文全文、未完成的平台對齊稿留在本機 `local/`，已被 git 忽略。本倉**不是** COVER / hololive 官方專案。
+> **現況。** 公開樹只保留官方 API 能重做的擷取與分析。登入式 X／Twitter 蒐集器、推文全文、未完成的平台對齊稿留在本機 `local/`，已被 git 忽略。本 Repository **不是** COVER / hololive 官方專案。
 
 ## 功能
 
@@ -174,7 +174,7 @@ CHANGELOG.md           Keep a Changelog 2.0.0
 
 程式與文件：[Apache License 2.0](LICENSE) © 2023–2026 Naritaroad。
 
-YouTube 標題、tags 與數量欄位來自 [YouTube Data API](https://developers.google.com/youtube/terms/api-services-terms-of-use)，所有權仍屬原上傳者與平台。Hololive、人才名與相關商標屬 COVER Corporation。本倉僅供方法展示，不主張任何官方關係。
+YouTube 標題、tags 與數量欄位來自 [YouTube Data API](https://developers.google.com/youtube/terms/api-services-terms-of-use)，所有權仍屬原上傳者與平台。Hololive、人才名與相關商標屬 COVER Corporation。本 Repository 僅供方法展示，不主張任何官方關係。
 
 ---
 
